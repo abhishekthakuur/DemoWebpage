@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">  
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet"> 
+     <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Kaushan+Script&display=swap" rel="stylesheet">
+    <title>fitindia</title>
+    
+</head>
+<body>
+    <nav id="navbar">
+        <h3>fitIndia</h3>
+        <a href="/">HOME</a>
+        <a href="/blogs">BLOGS</a>
+        <a href="/training">TRAINING</a>
+        <a href="/foods">FOODS</a>
+        <a class="active" href="/contact">CONTACT US</a>
+    </nav>
+
+    <p id="para1"> 
+    <h1 id="heading">
+    CONTACT US
+    </h1>
+    </p>
+
+    <section id="container">
+        <form id="form" action="/contact" method="POST">
+            <input class="input"  type="text" placeholder="Name" name ="name" required><br>
+            <input class="input" type="int" placeholder="Phone no." name ="phone_no" required><br>
+            <input class="input"   type="email" placeholder="Email" name ="email" required><br>
+            <textarea name="message" id="textarea" cols="76" rows="10" placeholder="Message" required></textarea><br>
+            <input id="btn" onclick = "clicked();" type="submit" value="submit"><br>
+            <i id="symbol" style="font-size:24px" class="fa">&#xf2b9;</i>
+            <i id="symbol1" style="font-size:24px" class="fa">&#xf27a;</i>
+            <i id="symbol2" style="font-size:24px" class="fa">&#xf0e0;</i>
+        </form>
+    </section>
+    <footer>
+        &copy; FitIndia with 2021 proudly made by Abhishek dev
+    </footer>
+
+</body>
+</html>
